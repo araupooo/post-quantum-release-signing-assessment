@@ -1,0 +1,586 @@
+{
+  "adversarial_cases": {
+    "ML-DSA-44": 14,
+    "ML-DSA-65": 14,
+    "ML-DSA-87": 14,
+    "SLH-DSA-SHA2-128f": 10,
+    "SLH-DSA-SHA2-128s": 10,
+    "SLH-DSA-SHA2-192f": 10,
+    "SLH-DSA-SHA2-192s": 10,
+    "SLH-DSA-SHA2-256f": 10,
+    "SLH-DSA-SHA2-256s": 10,
+    "SLH-DSA-SHAKE-128f": 10,
+    "SLH-DSA-SHAKE-128s": 10,
+    "SLH-DSA-SHAKE-192f": 10,
+    "SLH-DSA-SHAKE-192s": 10,
+    "SLH-DSA-SHAKE-256f": 10,
+    "SLH-DSA-SHAKE-256s": 10
+  },
+  "artifact_size_impact": {
+    "ML-DSA-44": {
+      "overhead_pct_binary_50MiB": 0.0046,
+      "overhead_pct_manifest_1KiB": 236.3281,
+      "overhead_pct_tarball_5MiB": 0.0462,
+      "overhead_pct_wheel_100KiB": 2.3633,
+      "signature_bytes": 2420,
+      "vs_ed25519_64B": 37.8
+    },
+    "ML-DSA-65": {
+      "overhead_pct_binary_50MiB": 0.0063,
+      "overhead_pct_manifest_1KiB": 323.1445,
+      "overhead_pct_tarball_5MiB": 0.0631,
+      "overhead_pct_wheel_100KiB": 3.2314,
+      "signature_bytes": 3309,
+      "vs_ed25519_64B": 51.7
+    },
+    "ML-DSA-87": {
+      "overhead_pct_binary_50MiB": 0.0088,
+      "overhead_pct_manifest_1KiB": 451.8555,
+      "overhead_pct_tarball_5MiB": 0.0883,
+      "overhead_pct_wheel_100KiB": 4.5186,
+      "signature_bytes": 4627,
+      "vs_ed25519_64B": 72.3
+    },
+    "SLH-DSA-SHA2-128f": {
+      "overhead_pct_binary_50MiB": 0.0326,
+      "overhead_pct_manifest_1KiB": 1668.75,
+      "overhead_pct_tarball_5MiB": 0.3259,
+      "overhead_pct_wheel_100KiB": 16.6875,
+      "signature_bytes": 17088,
+      "vs_ed25519_64B": 267.0
+    },
+    "SLH-DSA-SHA2-128s": {
+      "overhead_pct_binary_50MiB": 0.015,
+      "overhead_pct_manifest_1KiB": 767.1875,
+      "overhead_pct_tarball_5MiB": 0.1498,
+      "overhead_pct_wheel_100KiB": 7.6719,
+      "signature_bytes": 7856,
+      "vs_ed25519_64B": 122.8
+    },
+    "SLH-DSA-SHA2-192f": {
+      "overhead_pct_binary_50MiB": 0.068,
+      "overhead_pct_manifest_1KiB": 3482.8125,
+      "overhead_pct_tarball_5MiB": 0.6802,
+      "overhead_pct_wheel_100KiB": 34.8281,
+      "signature_bytes": 35664,
+      "vs_ed25519_64B": 557.2
+    },
+    "SLH-DSA-SHA2-192s": {
+      "overhead_pct_binary_50MiB": 0.0309,
+      "overhead_pct_manifest_1KiB": 1584.375,
+      "overhead_pct_tarball_5MiB": 0.3094,
+      "overhead_pct_wheel_100KiB": 15.8438,
+      "signature_bytes": 16224,
+      "vs_ed25519_64B": 253.5
+    },
+    "SLH-DSA-SHA2-256f": {
+      "overhead_pct_binary_50MiB": 0.0951,
+      "overhead_pct_manifest_1KiB": 4868.75,
+      "overhead_pct_tarball_5MiB": 0.9509,
+      "overhead_pct_wheel_100KiB": 48.6875,
+      "signature_bytes": 49856,
+      "vs_ed25519_64B": 779.0
+    },
+    "SLH-DSA-SHA2-256s": {
+      "overhead_pct_binary_50MiB": 0.0568,
+      "overhead_pct_manifest_1KiB": 2909.375,
+      "overhead_pct_tarball_5MiB": 0.5682,
+      "overhead_pct_wheel_100KiB": 29.0938,
+      "signature_bytes": 29792,
+      "vs_ed25519_64B": 465.5
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "overhead_pct_binary_50MiB": 0.0326,
+      "overhead_pct_manifest_1KiB": 1668.75,
+      "overhead_pct_tarball_5MiB": 0.3259,
+      "overhead_pct_wheel_100KiB": 16.6875,
+      "signature_bytes": 17088,
+      "vs_ed25519_64B": 267.0
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "overhead_pct_binary_50MiB": 0.015,
+      "overhead_pct_manifest_1KiB": 767.1875,
+      "overhead_pct_tarball_5MiB": 0.1498,
+      "overhead_pct_wheel_100KiB": 7.6719,
+      "signature_bytes": 7856,
+      "vs_ed25519_64B": 122.8
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "overhead_pct_binary_50MiB": 0.068,
+      "overhead_pct_manifest_1KiB": 3482.8125,
+      "overhead_pct_tarball_5MiB": 0.6802,
+      "overhead_pct_wheel_100KiB": 34.8281,
+      "signature_bytes": 35664,
+      "vs_ed25519_64B": 557.2
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "overhead_pct_binary_50MiB": 0.0309,
+      "overhead_pct_manifest_1KiB": 1584.375,
+      "overhead_pct_tarball_5MiB": 0.3094,
+      "overhead_pct_wheel_100KiB": 15.8438,
+      "signature_bytes": 16224,
+      "vs_ed25519_64B": 253.5
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "overhead_pct_binary_50MiB": 0.0951,
+      "overhead_pct_manifest_1KiB": 4868.75,
+      "overhead_pct_tarball_5MiB": 0.9509,
+      "overhead_pct_wheel_100KiB": 48.6875,
+      "signature_bytes": 49856,
+      "vs_ed25519_64B": 779.0
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "overhead_pct_binary_50MiB": 0.0568,
+      "overhead_pct_manifest_1KiB": 2909.375,
+      "overhead_pct_tarball_5MiB": 0.5682,
+      "overhead_pct_wheel_100KiB": 29.0938,
+      "signature_bytes": 29792,
+      "vs_ed25519_64B": 465.5
+    }
+  },
+  "cross_implementation_all_pass": true,
+  "determinism": {
+    "ML-DSA-44": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "ML-DSA-65": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "ML-DSA-87": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    }
+  },
+  "environment": {
+    "openssl_lists_ml_dsa": false,
+    "openssl_lists_slh_dsa": false,
+    "openssl_version": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)",
+    "python": "3.12.3"
+  },
+  "findings_by_severity": {
+    "High": 0,
+    "Low": 6,
+    "Medium": 3
+  },
+  "findings_total": 9,
+  "implementations_benchmarked": {
+    "dilithium-py": "1.5.1 (pure Python, FIPS 204 ML-DSA)",
+    "go": "not run \u2014 no Go toolchain on this machine",
+    "liboqs": "0.16.0 (C)",
+    "rust": "not run \u2014 no cargo/rustc toolchain on this machine",
+    "slh-dsa": "0.2.5 (pure Python, FIPS 205 pure signing)"
+  },
+  "pack": "post-quantum-release-signing-assessment",
+  "parameter_sets": {
+    "ML-DSA": [
+      "ML-DSA-44",
+      "ML-DSA-65",
+      "ML-DSA-87"
+    ],
+    "SLH-DSA": [
+      "SLH-DSA-SHA2-128s",
+      "SLH-DSA-SHA2-128f",
+      "SLH-DSA-SHA2-192s",
+      "SLH-DSA-SHA2-192f",
+      "SLH-DSA-SHA2-256s",
+      "SLH-DSA-SHA2-256f",
+      "SLH-DSA-SHAKE-128s",
+      "SLH-DSA-SHAKE-128f",
+      "SLH-DSA-SHAKE-192s",
+      "SLH-DSA-SHAKE-192f",
+      "SLH-DSA-SHAKE-256s",
+      "SLH-DSA-SHAKE-256f"
+    ]
+  },
+  "peak_rss_kb": {
+    "ML-DSA-44": {
+      "dilithium-py": 20000,
+      "liboqs": 6024
+    },
+    "ML-DSA-65": {
+      "dilithium-py": 20420,
+      "liboqs": 6016
+    },
+    "ML-DSA-87": {
+      "dilithium-py": 20788,
+      "liboqs": 6108
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs": 5972,
+      "slh-dsa": 20680
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs": 5896,
+      "slh-dsa": 20608
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs": 5792,
+      "slh-dsa": 20540
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs": 6012,
+      "slh-dsa": 20848
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs": 5684,
+      "slh-dsa": 20924
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs": 5896,
+      "slh-dsa": 20564
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs": 5892,
+      "slh-dsa": 20764
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs": 5764,
+      "slh-dsa": 20680
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs": 5892,
+      "slh-dsa": 20644
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs": 5828,
+      "slh-dsa": 20492
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs": 5900,
+      "slh-dsa": 20756
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs": 5904,
+      "slh-dsa": 20788
+    }
+  },
+  "sizes_verified": {
+    "ML-DSA-44": true,
+    "ML-DSA-65": true,
+    "ML-DSA-87": true,
+    "SLH-DSA-SHA2-128f": true,
+    "SLH-DSA-SHA2-128s": true,
+    "SLH-DSA-SHA2-192f": true,
+    "SLH-DSA-SHA2-192s": true,
+    "SLH-DSA-SHA2-256f": true,
+    "SLH-DSA-SHA2-256s": true,
+    "SLH-DSA-SHAKE-128f": true,
+    "SLH-DSA-SHAKE-128s": true,
+    "SLH-DSA-SHAKE-192f": true,
+    "SLH-DSA-SHAKE-192s": true,
+    "SLH-DSA-SHAKE-256f": true,
+    "SLH-DSA-SHAKE-256s": true
+  },
+  "throughput_ms_median": {
+    "ML-DSA-44": {
+      "dilithium-py": {
+        "keygen": 7.172744,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 34.497391,
+        "verify": 8.575445
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.032138,
+        "n": 100,
+        "sign_ms_median": 0.080311,
+        "verify_ms_median": 0.034843,
+        "verify_ok": "100/100"
+      }
+    },
+    "ML-DSA-65": {
+      "dilithium-py": {
+        "keygen": 11.643596,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 82.732394,
+        "verify": 13.38816
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.055914,
+        "n": 100,
+        "sign_ms_median": 0.130526,
+        "verify_ms_median": 0.056895,
+        "verify_ok": "100/100"
+      }
+    },
+    "ML-DSA-87": {
+      "dilithium-py": {
+        "keygen": 17.920434,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 87.446606,
+        "verify": 20.705175
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.080431,
+        "n": 100,
+        "sign_ms_median": 0.140315,
+        "verify_ms_median": 0.080681,
+        "verify_ok": "100/100"
+      }
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs": {
+        "keygen_ms_median": 1.350913,
+        "n": 20,
+        "sign_ms_median": 31.62504,
+        "verify_ms_median": 1.935391,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 20.309261,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 252.630752,
+        "verify": 16.375185
+      }
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs": {
+        "keygen_ms_median": 86.758688,
+        "n": 20,
+        "sign_ms_median": 671.825486,
+        "verify_ms_median": 0.68576,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1297.107044,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 5072.476328,
+        "verify": 5.538194
+      }
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs": {
+        "keygen_ms_median": 1.99537,
+        "n": 20,
+        "sign_ms_median": 52.186695,
+        "verify_ms_median": 2.756324,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 28.670504,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 398.007099,
+        "verify": 22.154591
+      }
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs": {
+        "keygen_ms_median": 127.730831,
+        "n": 20,
+        "sign_ms_median": 1173.080135,
+        "verify_ms_median": 0.963777,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1815.856939,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 9008.403822,
+        "verify": 7.714311
+      }
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs": {
+        "keygen_ms_median": 5.18214,
+        "n": 20,
+        "sign_ms_median": 107.769373,
+        "verify_ms_median": 3.012607,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 83.282364,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 872.474692,
+        "verify": 22.459229
+      }
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs": {
+        "keygen_ms_median": 83.071047,
+        "n": 20,
+        "sign_ms_median": 1048.370354,
+        "verify_ms_median": 1.4289,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1225.912088,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 8063.830546,
+        "verify": 11.090661
+      }
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs": {
+        "keygen_ms_median": 2.335311,
+        "n": 20,
+        "sign_ms_median": 54.369677,
+        "verify_ms_median": 3.193133,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 23.588664,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 284.965577,
+        "verify": 16.056496
+      }
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs": {
+        "keygen_ms_median": 150.070239,
+        "n": 20,
+        "sign_ms_median": 1139.507827,
+        "verify_ms_median": 1.104964,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1399.983637,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 5205.618668,
+        "verify": 5.913739
+      }
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs": {
+        "keygen_ms_median": 3.377971,
+        "n": 20,
+        "sign_ms_median": 88.888371,
+        "verify_ms_median": 4.565675,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 33.144441,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 442.369683,
+        "verify": 24.129336
+      }
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs": {
+        "keygen_ms_median": 216.182672,
+        "n": 20,
+        "sign_ms_median": 2007.729404,
+        "verify_ms_median": 1.61502,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 2038.308483,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 9527.23637,
+        "verify": 8.476355
+      }
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs": {
+        "keygen_ms_median": 8.867177,
+        "n": 20,
+        "sign_ms_median": 181.766166,
+        "verify_ms_median": 4.784424,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 84.842817,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 875.451942,
+        "verify": 23.48629
+      }
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs": {
+        "keygen_ms_median": 144.396927,
+        "n": 20,
+        "sign_ms_median": 1805.793641,
+        "verify_ms_median": 2.289232,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1334.505903,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 8431.509533,
+        "verify": 12.059706
+      }
+    }
+  },
+  "weakness": {
+    "id": "F-01",
+    "regression_test_failed": 0,
+    "regression_test_passed": 11,
+    "remediation": "remediation/keyed_envelope.py \u2014 key-identified signature envelopes with a retired-key registry and distinct failure errors; patch in remediation/remediation.patch",
+    "reproduced": true,
+    "title": "key rotation without key identifiers breaks verification of previously signed release artifacts, and the failure is indistinguishable from tampering"
+  }
+}

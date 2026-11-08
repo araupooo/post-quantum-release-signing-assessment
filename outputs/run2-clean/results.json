@@ -1,0 +1,968 @@
+{
+  "adversarial": {
+    "ML-DSA-44": {
+      "dilithium_cross_param": "refused_ValueError",
+      "dilithium_ctx_300B": "refused_ValueError",
+      "dilithium_flipped_sig": false,
+      "dilithium_truncated_sig": "returns_False",
+      "dilithium_valid": true,
+      "dilithium_wrong_ctx": false,
+      "dilithium_wrong_msg": false,
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_ctx_300B": "refused_sign_failed",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_ctx": "INVALID",
+      "liboqs_wrong_msg": "INVALID"
+    },
+    "ML-DSA-65": {
+      "dilithium_cross_param": "refused_ValueError",
+      "dilithium_ctx_300B": "refused_ValueError",
+      "dilithium_flipped_sig": false,
+      "dilithium_truncated_sig": "returns_False",
+      "dilithium_valid": true,
+      "dilithium_wrong_ctx": false,
+      "dilithium_wrong_msg": false,
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_ctx_300B": "refused_sign_failed",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_ctx": "INVALID",
+      "liboqs_wrong_msg": "INVALID"
+    },
+    "ML-DSA-87": {
+      "dilithium_cross_param": "refused_ValueError",
+      "dilithium_ctx_300B": "refused_ValueError",
+      "dilithium_flipped_sig": false,
+      "dilithium_truncated_sig": "returns_False",
+      "dilithium_valid": true,
+      "dilithium_wrong_ctx": false,
+      "dilithium_wrong_msg": false,
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_ctx_300B": "refused_sign_failed",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_ctx": "INVALID",
+      "liboqs_wrong_msg": "INVALID"
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs_cross_param": "verify_INVALID",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs_cross_param": "refused_length_check",
+      "liboqs_flipped_sig": "INVALID",
+      "liboqs_truncated_sig": "refused_length_check",
+      "liboqs_valid": true,
+      "liboqs_wrong_msg": "INVALID",
+      "slhdsa_cross_param": false,
+      "slhdsa_flipped_sig": false,
+      "slhdsa_truncated_sig": "returns_False",
+      "slhdsa_valid": true,
+      "slhdsa_wrong_msg": false
+    }
+  },
+  "artifact_size_impact": {
+    "ML-DSA-44": {
+      "overhead_pct_binary_50MiB": 0.0046,
+      "overhead_pct_manifest_1KiB": 236.3281,
+      "overhead_pct_tarball_5MiB": 0.0462,
+      "overhead_pct_wheel_100KiB": 2.3633,
+      "signature_bytes": 2420,
+      "vs_ed25519_64B": 37.8
+    },
+    "ML-DSA-65": {
+      "overhead_pct_binary_50MiB": 0.0063,
+      "overhead_pct_manifest_1KiB": 323.1445,
+      "overhead_pct_tarball_5MiB": 0.0631,
+      "overhead_pct_wheel_100KiB": 3.2314,
+      "signature_bytes": 3309,
+      "vs_ed25519_64B": 51.7
+    },
+    "ML-DSA-87": {
+      "overhead_pct_binary_50MiB": 0.0088,
+      "overhead_pct_manifest_1KiB": 451.8555,
+      "overhead_pct_tarball_5MiB": 0.0883,
+      "overhead_pct_wheel_100KiB": 4.5186,
+      "signature_bytes": 4627,
+      "vs_ed25519_64B": 72.3
+    },
+    "SLH-DSA-SHA2-128f": {
+      "overhead_pct_binary_50MiB": 0.0326,
+      "overhead_pct_manifest_1KiB": 1668.75,
+      "overhead_pct_tarball_5MiB": 0.3259,
+      "overhead_pct_wheel_100KiB": 16.6875,
+      "signature_bytes": 17088,
+      "vs_ed25519_64B": 267.0
+    },
+    "SLH-DSA-SHA2-128s": {
+      "overhead_pct_binary_50MiB": 0.015,
+      "overhead_pct_manifest_1KiB": 767.1875,
+      "overhead_pct_tarball_5MiB": 0.1498,
+      "overhead_pct_wheel_100KiB": 7.6719,
+      "signature_bytes": 7856,
+      "vs_ed25519_64B": 122.8
+    },
+    "SLH-DSA-SHA2-192f": {
+      "overhead_pct_binary_50MiB": 0.068,
+      "overhead_pct_manifest_1KiB": 3482.8125,
+      "overhead_pct_tarball_5MiB": 0.6802,
+      "overhead_pct_wheel_100KiB": 34.8281,
+      "signature_bytes": 35664,
+      "vs_ed25519_64B": 557.2
+    },
+    "SLH-DSA-SHA2-192s": {
+      "overhead_pct_binary_50MiB": 0.0309,
+      "overhead_pct_manifest_1KiB": 1584.375,
+      "overhead_pct_tarball_5MiB": 0.3094,
+      "overhead_pct_wheel_100KiB": 15.8438,
+      "signature_bytes": 16224,
+      "vs_ed25519_64B": 253.5
+    },
+    "SLH-DSA-SHA2-256f": {
+      "overhead_pct_binary_50MiB": 0.0951,
+      "overhead_pct_manifest_1KiB": 4868.75,
+      "overhead_pct_tarball_5MiB": 0.9509,
+      "overhead_pct_wheel_100KiB": 48.6875,
+      "signature_bytes": 49856,
+      "vs_ed25519_64B": 779.0
+    },
+    "SLH-DSA-SHA2-256s": {
+      "overhead_pct_binary_50MiB": 0.0568,
+      "overhead_pct_manifest_1KiB": 2909.375,
+      "overhead_pct_tarball_5MiB": 0.5682,
+      "overhead_pct_wheel_100KiB": 29.0938,
+      "signature_bytes": 29792,
+      "vs_ed25519_64B": 465.5
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "overhead_pct_binary_50MiB": 0.0326,
+      "overhead_pct_manifest_1KiB": 1668.75,
+      "overhead_pct_tarball_5MiB": 0.3259,
+      "overhead_pct_wheel_100KiB": 16.6875,
+      "signature_bytes": 17088,
+      "vs_ed25519_64B": 267.0
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "overhead_pct_binary_50MiB": 0.015,
+      "overhead_pct_manifest_1KiB": 767.1875,
+      "overhead_pct_tarball_5MiB": 0.1498,
+      "overhead_pct_wheel_100KiB": 7.6719,
+      "signature_bytes": 7856,
+      "vs_ed25519_64B": 122.8
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "overhead_pct_binary_50MiB": 0.068,
+      "overhead_pct_manifest_1KiB": 3482.8125,
+      "overhead_pct_tarball_5MiB": 0.6802,
+      "overhead_pct_wheel_100KiB": 34.8281,
+      "signature_bytes": 35664,
+      "vs_ed25519_64B": 557.2
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "overhead_pct_binary_50MiB": 0.0309,
+      "overhead_pct_manifest_1KiB": 1584.375,
+      "overhead_pct_tarball_5MiB": 0.3094,
+      "overhead_pct_wheel_100KiB": 15.8438,
+      "signature_bytes": 16224,
+      "vs_ed25519_64B": 253.5
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "overhead_pct_binary_50MiB": 0.0951,
+      "overhead_pct_manifest_1KiB": 4868.75,
+      "overhead_pct_tarball_5MiB": 0.9509,
+      "overhead_pct_wheel_100KiB": 48.6875,
+      "signature_bytes": 49856,
+      "vs_ed25519_64B": 779.0
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "overhead_pct_binary_50MiB": 0.0568,
+      "overhead_pct_manifest_1KiB": 2909.375,
+      "overhead_pct_tarball_5MiB": 0.5682,
+      "overhead_pct_wheel_100KiB": 29.0938,
+      "signature_bytes": 29792,
+      "vs_ed25519_64B": 465.5
+    }
+  },
+  "cross_implementation": {
+    "ML-DSA-44": {
+      "sig_dilithium_sign_liboqs_verify": true,
+      "sig_liboqs_sign_dilithium_verify": true
+    },
+    "ML-DSA-65": {
+      "sig_dilithium_sign_liboqs_verify": true,
+      "sig_liboqs_sign_dilithium_verify": true
+    },
+    "ML-DSA-87": {
+      "sig_dilithium_sign_liboqs_verify": true,
+      "sig_liboqs_sign_dilithium_verify": true
+    },
+    "SLH-DSA-SHA2-128f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHA2-128s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHA2-192f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHA2-192s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHA2-256f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHA2-256s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "sig_liboqs_sign_slhdsa_verify": true,
+      "sig_slhdsa_sign_liboqs_verify": true
+    }
+  },
+  "determinism": {
+    "ML-DSA-44": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "ML-DSA-65": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "ML-DSA-87": {
+      "dilithium_hedged_sign_twice_identical": false,
+      "liboqs_hedged_sign_twice_identical": "no"
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs_sign_twice_identical": "no",
+      "slhdsa_deterministic_sign_twice_identical": true,
+      "slhdsa_randomized_sign_twice_identical": false
+    }
+  },
+  "environment": {
+    "openssl_lists_ml_dsa": false,
+    "openssl_lists_slh_dsa": false,
+    "openssl_version": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)",
+    "python": "3.12.3"
+  },
+  "implementations": {
+    "dilithium-py": "1.5.1 (pure Python, FIPS 204 ML-DSA)",
+    "go": "NOT RUN \u2014 no Go toolchain on this machine",
+    "liboqs": "0.16.0 (C, ml-dsa-native / slh-dsa backends)",
+    "rust": "NOT RUN \u2014 no cargo/rustc toolchain on this machine",
+    "slh-dsa": "0.2.5 (pure Python, FIPS 205 pure signing; author Colinxu2020)"
+  },
+  "memory_kb": {
+    "ML-DSA-44": {
+      "dilithium-py": 20012,
+      "liboqs": 5984
+    },
+    "ML-DSA-65": {
+      "dilithium-py": 20656,
+      "liboqs": 6180
+    },
+    "ML-DSA-87": {
+      "dilithium-py": 20976,
+      "liboqs": 6092
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs": 5996,
+      "slh-dsa": 20736
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs": 5848,
+      "slh-dsa": 20664
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs": 6084,
+      "slh-dsa": 20668
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs": 6064,
+      "slh-dsa": 20704
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs": 5860,
+      "slh-dsa": 20984
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs": 6016,
+      "slh-dsa": 20680
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs": 5952,
+      "slh-dsa": 20896
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs": 6016,
+      "slh-dsa": 20844
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs": 5956,
+      "slh-dsa": 20988
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs": 5900,
+      "slh-dsa": 20640
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs": 5860,
+      "slh-dsa": 20740
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs": 5840,
+      "slh-dsa": 20808
+    }
+  },
+  "sizes_verified": {
+    "ML-DSA-44": {
+      "expected": {
+        "pk": 1312,
+        "sig": 2420,
+        "sk": 2560
+      },
+      "liboqs": {
+        "pk": 1312,
+        "sig": 2420,
+        "sk": 2560
+      },
+      "match": true
+    },
+    "ML-DSA-65": {
+      "expected": {
+        "pk": 1952,
+        "sig": 3309,
+        "sk": 4032
+      },
+      "liboqs": {
+        "pk": 1952,
+        "sig": 3309,
+        "sk": 4032
+      },
+      "match": true
+    },
+    "ML-DSA-87": {
+      "expected": {
+        "pk": 2592,
+        "sig": 4627,
+        "sk": 4896
+      },
+      "liboqs": {
+        "pk": 2592,
+        "sig": 4627,
+        "sk": 4896
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-128f": {
+      "expected": {
+        "pk": 32,
+        "sig": 17088,
+        "sk": 64
+      },
+      "liboqs": {
+        "pk": 32,
+        "sig": 17088,
+        "sk": 64
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-128s": {
+      "expected": {
+        "pk": 32,
+        "sig": 7856,
+        "sk": 64
+      },
+      "liboqs": {
+        "pk": 32,
+        "sig": 7856,
+        "sk": 64
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-192f": {
+      "expected": {
+        "pk": 48,
+        "sig": 35664,
+        "sk": 96
+      },
+      "liboqs": {
+        "pk": 48,
+        "sig": 35664,
+        "sk": 96
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-192s": {
+      "expected": {
+        "pk": 48,
+        "sig": 16224,
+        "sk": 96
+      },
+      "liboqs": {
+        "pk": 48,
+        "sig": 16224,
+        "sk": 96
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-256f": {
+      "expected": {
+        "pk": 64,
+        "sig": 49856,
+        "sk": 128
+      },
+      "liboqs": {
+        "pk": 64,
+        "sig": 49856,
+        "sk": 128
+      },
+      "match": true
+    },
+    "SLH-DSA-SHA2-256s": {
+      "expected": {
+        "pk": 64,
+        "sig": 29792,
+        "sk": 128
+      },
+      "liboqs": {
+        "pk": 64,
+        "sig": 29792,
+        "sk": 128
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "expected": {
+        "pk": 32,
+        "sig": 17088,
+        "sk": 64
+      },
+      "liboqs": {
+        "pk": 32,
+        "sig": 17088,
+        "sk": 64
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "expected": {
+        "pk": 32,
+        "sig": 7856,
+        "sk": 64
+      },
+      "liboqs": {
+        "pk": 32,
+        "sig": 7856,
+        "sk": 64
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "expected": {
+        "pk": 48,
+        "sig": 35664,
+        "sk": 96
+      },
+      "liboqs": {
+        "pk": 48,
+        "sig": 35664,
+        "sk": 96
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "expected": {
+        "pk": 48,
+        "sig": 16224,
+        "sk": 96
+      },
+      "liboqs": {
+        "pk": 48,
+        "sig": 16224,
+        "sk": 96
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "expected": {
+        "pk": 64,
+        "sig": 49856,
+        "sk": 128
+      },
+      "liboqs": {
+        "pk": 64,
+        "sig": 49856,
+        "sk": 128
+      },
+      "match": true
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "expected": {
+        "pk": 64,
+        "sig": 29792,
+        "sk": 128
+      },
+      "liboqs": {
+        "pk": 64,
+        "sig": 29792,
+        "sk": 128
+      },
+      "match": true
+    }
+  },
+  "throughput": {
+    "ML-DSA-44": {
+      "dilithium-py": {
+        "keygen": 7.042133,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 43.607334,
+        "verify": 8.552966
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.032293,
+        "n": 100,
+        "sign_ms_median": 0.095078,
+        "verify_ms_median": 0.034672,
+        "verify_ok": "100/100"
+      }
+    },
+    "ML-DSA-65": {
+      "dilithium-py": {
+        "keygen": 12.224458,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 65.900704,
+        "verify": 13.595836
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.056715,
+        "n": 100,
+        "sign_ms_median": 0.140186,
+        "verify_ms_median": 0.05698,
+        "verify_ok": "100/100"
+      }
+    },
+    "ML-DSA-87": {
+      "dilithium-py": {
+        "keygen": 17.655241,
+        "n": 10,
+        "roundtrip_ok": true,
+        "sign": 50.036337,
+        "verify": 20.687473
+      },
+      "liboqs": {
+        "keygen_ms_median": 0.082674,
+        "n": 100,
+        "sign_ms_median": 0.176335,
+        "verify_ms_median": 0.089635,
+        "verify_ok": "100/100"
+      }
+    },
+    "SLH-DSA-SHA2-128f": {
+      "liboqs": {
+        "keygen_ms_median": 1.503822,
+        "n": 20,
+        "sign_ms_median": 34.821218,
+        "verify_ms_median": 2.099902,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 19.785524,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 240.828613,
+        "verify": 14.576724
+      }
+    },
+    "SLH-DSA-SHA2-128s": {
+      "liboqs": {
+        "keygen_ms_median": 95.046882,
+        "n": 20,
+        "sign_ms_median": 719.521283,
+        "verify_ms_median": 0.768369,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1265.426022,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 4896.339177,
+        "verify": 5.36871
+      }
+    },
+    "SLH-DSA-SHA2-192f": {
+      "liboqs": {
+        "keygen_ms_median": 2.133343,
+        "n": 20,
+        "sign_ms_median": 56.412774,
+        "verify_ms_median": 3.059223,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 30.255523,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 410.537222,
+        "verify": 22.648633
+      }
+    },
+    "SLH-DSA-SHA2-192s": {
+      "liboqs": {
+        "keygen_ms_median": 138.256774,
+        "n": 20,
+        "sign_ms_median": 1261.172976,
+        "verify_ms_median": 1.013707,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1945.864283,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 9382.683118,
+        "verify": 8.29273
+      }
+    },
+    "SLH-DSA-SHA2-256f": {
+      "liboqs": {
+        "keygen_ms_median": 5.616984,
+        "n": 20,
+        "sign_ms_median": 115.899763,
+        "verify_ms_median": 3.106564,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 76.59905,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 801.583681,
+        "verify": 22.543916
+      }
+    },
+    "SLH-DSA-SHA2-256s": {
+      "liboqs": {
+        "keygen_ms_median": 90.452515,
+        "n": 20,
+        "sign_ms_median": 1125.875781,
+        "verify_ms_median": 1.468495,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1240.835863,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 8094.201383,
+        "verify": 13.807409
+      }
+    },
+    "SLH-DSA-SHAKE-128f": {
+      "liboqs": {
+        "keygen_ms_median": 2.279252,
+        "n": 20,
+        "sign_ms_median": 53.521759,
+        "verify_ms_median": 3.215959,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 21.507199,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 266.79688,
+        "verify": 16.03235
+      }
+    },
+    "SLH-DSA-SHAKE-128s": {
+      "liboqs": {
+        "keygen_ms_median": 147.118228,
+        "n": 20,
+        "sign_ms_median": 1127.994491,
+        "verify_ms_median": 1.076947,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1361.505408,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 5265.870166,
+        "verify": 5.433147
+      }
+    },
+    "SLH-DSA-SHAKE-192f": {
+      "liboqs": {
+        "keygen_ms_median": 3.335928,
+        "n": 20,
+        "sign_ms_median": 87.426516,
+        "verify_ms_median": 4.542699,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 31.262495,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 417.846044,
+        "verify": 23.170407
+      }
+    },
+    "SLH-DSA-SHAKE-192s": {
+      "liboqs": {
+        "keygen_ms_median": 214.469905,
+        "n": 20,
+        "sign_ms_median": 2001.010496,
+        "verify_ms_median": 1.615154,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1962.846559,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 9316.575629,
+        "verify": 8.256696
+      }
+    },
+    "SLH-DSA-SHAKE-256f": {
+      "liboqs": {
+        "keygen_ms_median": 9.025641,
+        "n": 20,
+        "sign_ms_median": 181.324273,
+        "verify_ms_median": 4.815931,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 82.034231,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 842.451287,
+        "verify": 22.881042
+      }
+    },
+    "SLH-DSA-SHAKE-256s": {
+      "liboqs": {
+        "keygen_ms_median": 141.975311,
+        "n": 20,
+        "sign_ms_median": 1804.438792,
+        "verify_ms_median": 2.359287,
+        "verify_ok": "20/20"
+      },
+      "slh-dsa": {
+        "keygen": 1286.18005,
+        "n": 1,
+        "roundtrip_ok": true,
+        "sign": 8469.143704,
+        "verify": 11.251032
+      }
+    }
+  }
+}

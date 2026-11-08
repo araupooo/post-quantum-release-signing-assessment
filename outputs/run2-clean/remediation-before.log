@@ -1,0 +1,13 @@
+=== F-01 reproduction: key rotation without key identifiers ===
+key A generated (ML-DSA-65)
+Release 1.0 signed with key A; verify under A: VALID
+key rotated: A -> B (old key discarded by the pipeline)
+Release 2.0 signed with key B; verify under B: VALID
+Release 1.0 (untouched) verified under current key B: INVALID
+Release 1.0 (TAMPERED) verified under current key B: INVALID
+artifact sha256 v1: 2c0cf9149349f939... (unchanged — the artifact is intact)
+
+REPRODUCED: after rotation, an intact previously signed artifact
+fails verification, and the failure is identical to a tampered
+artifact's failure. The pipeline cannot tell rotation from
+tampering because signatures carry no key identifier.

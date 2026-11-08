@@ -1,0 +1,14 @@
+=== BEFORE (failure mode): rotation without key identifiers ===
+PASS before_old_artifact_valid_under_signing_key
+PASS before_old_artifact_invalid_after_rotation — rotation breaks verification of a previously signed artifact
+PASS before_rotation_error_indistinguishable_from_tampering — tampered artifact fails with the identical error string
+=== AFTER (remediation): key-identified envelopes ===
+PASS after_old_artifact_verifies_after_rotation
+PASS after_tampered_artifact_refused_distinctly — ARTIFACT_MISMATCH
+PASS after_unknown_key_id_refused — 'UNKNOWN_KEY_ID deadbeefdeadbeef'
+PASS after_wrong_key_signature_refused — INVALID_SIGNATURE
+PASS after_envelope_signature_verifies_under_liboqs
+PASS after_patch_applies_cleanly — checking file vulnerable_pipeline.py
+PASS after_patch_applied
+PASS after_patched_caller_verifies_old_artifact_after_rotation — old artifact verifies after rotation: VALID
+=== regression test: 11 passed, 0 failed ===
